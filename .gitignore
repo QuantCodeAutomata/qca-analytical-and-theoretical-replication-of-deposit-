@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+*.env
+.venv/
+venv/
+# Block raw downloaded market data everywhere except explicit results/ deliverables
+data/*.csv
+data/*.parquet
+data/*.json.gz
+data/*.feather
+*.parquet
+*.json.gz
+*.feather
+.ipynb_checkpoints/
+*.ipynb
+.DS_Store
+*.log
